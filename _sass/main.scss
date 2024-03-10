@@ -10,26 +10,29 @@
     a{
         font-family: $display-font;
         font-size: 300%;
-        color: $active-color;   
+        color: $background-color;   
     }
 }
 
 nav {
     width: fit-content;
+    background-color: $background-color;
+    padding: $spacer-half;
+    border-radius: $spacer*1.25;
     a{
         padding: 10px;
         font-family: $display-font;
-        font-size: 200%;
+        font-size: 150%;
+        color: #fff;
     }
 } 
 
-.current {
-    color: $active-color;
-}
-
 .content {
     font-family: $text-font;
-    padding: $spacer;
+    padding: $spacer-3x $spacer;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     h1{
         padding-bottom: $spacer;
     }

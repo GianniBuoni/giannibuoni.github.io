@@ -6,13 +6,15 @@ $text-font: Labrada, sans-serif;
 //Colors
 
 //Block Colors
-$primary-color: rgb(255, 195, 0);
+$foreground-color: rgb(255, 211, 211);
+$background-color: rgb(128, 114, 250);
 $secondary-color: rgb(114, 236, 250);
 
 //Text Colors
 $hover-color: rgb(255, 140, 77);
-$active-color: rgb(128, 114, 250);
-$passive-color: rgb(250, 128, 114);
+$link-color: rgb(250, 128, 114);
 
 //Spacing
 $spacer: 20px;
+$spacer-half: $spacer / 2;
+$spacer-3x: $spacer * 3;

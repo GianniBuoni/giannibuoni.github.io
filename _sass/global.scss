@@ -5,8 +5,12 @@
 
 a {
   text-decoration: none;
-  color: $passive-color;
+  color: $link-color;
   &:hover{
     color: $hover-color;
   }
+}
+
+.current {
+  color: $foreground-color;
 }
