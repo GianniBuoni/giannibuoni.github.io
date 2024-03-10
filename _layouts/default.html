@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> {{ page.title }} </title>
+
+    <!-- Links to CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+
+    <!-- Jekyll plugins go here -->
+    {% feed_meta %}
+    {% seo %}
+    
+    <!--Google Fonts to load-->
+    {% include fonts.html %}
+</head>
+
+<body>
+    {% include navigation.html %}
+    <div class="content">
+    {{ content }}
+    </div>
+</body>
