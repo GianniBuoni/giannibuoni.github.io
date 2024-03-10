@@ -1,12 +1,15 @@
 .header{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content:space-between;
     padding: $spacer;
 }
 
 .logo{
     width: fit-content;
+    img{
+        height: $spacer*10;
+    }
     a{
         font-family: $display-font;
         font-size: 300%;

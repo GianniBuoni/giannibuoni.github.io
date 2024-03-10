@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 // Fonts
 $display-font: "Tilt Warp", sans-serif;
 
@@ -16,5 +18,5 @@ $link-color: rgb(250, 128, 114);
 
 //Spacing
 $spacer: 20px;
-$spacer-half: $spacer / 2;
+$spacer-half: math.div($spacer, 2);
 $spacer-3x: $spacer * 3;

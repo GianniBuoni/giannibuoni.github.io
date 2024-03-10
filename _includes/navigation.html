@@ -1,6 +1,7 @@
 <div class="header">
     <span class="logo">
-        <a href="/">Jon Simeon</a>
+        {% capture logo %}{% include logo.md %}{% endcapture %}
+        {{ logo | markdownify }}
     </span>
 
     <nav>
