@@ -1,5 +1,7 @@
-{% for image in site.static_files %}
-    {% if image.path contains 'images/illustrations' %}
-    <img src="{{image.path}}"/>
+{% for image in site.static_files reversed %}
+    {% if image.path contains 'images/illustrations/thumbs' %}
+    <a href="assets/images/illustrations/{{image.name}}">
+        <img src="{{image.path}}"/>
+    </a>
     {% endif %}
 {% endfor %}
