@@ -38,6 +38,11 @@ nav {
         margin-bottom: $spacer;
         width: 75%;
     }
+    img{
+        position: relative;
+        width: 45%;
+        padding: $spacer-half;
+    }
   }
 
   #colaphon{

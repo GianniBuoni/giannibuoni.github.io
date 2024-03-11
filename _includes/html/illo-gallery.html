@@ -1,0 +1,5 @@
+{% for image in site.static_files %}
+    {% if image.path contains 'images/illustrations' %}
+    <img src="{{image.path}}"/>
+    {% endif %}
+{% endfor %}
