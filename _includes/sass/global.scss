@@ -1,0 +1,28 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+  &:hover{
+    color: $hover-color;
+  }
+}
+
+.current {
+  color: #fff;
+}
+
+.sticky {
+  position: fixed;
+  display: flex;
+  width: 90%;
+  z-index: 100;
+}
+
+.centered {
+left: 50%;
+transform: translate(-50%,0);
+}

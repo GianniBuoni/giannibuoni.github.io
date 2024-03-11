@@ -1,5 +1,6 @@
 ---
 ---
-@import "variables";
-@import "global";
-@import "main";
+
+{% include sass/variables.scss %}
+{% include sass/global.scss %}
+{% include sass/uniqueElements.scss %}

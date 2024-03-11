@@ -12,12 +12,18 @@
     {% seo %}
     
     <!--Google Fonts to load-->
-    {% include fonts.html %}
+    {% include html/fonts.html %}
 </head>
 
 <body>
-    {% include navigation.html %}
-    <div class="content">
+    {% include html/navigation.html %}
+    <div id="content" class="centered">
     {{ content }}
     </div>
+
+<!-- Colaphon -->
+{% include html/colaphon.html %}
+
+ <!-- JavaScript Time -->
+<script src="/assets/js/bundle.js"></script>   
 </body>

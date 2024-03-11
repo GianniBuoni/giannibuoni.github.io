@@ -1,0 +1,20 @@
+@use 'sass:math';
+
+// Fonts
+$display-font: "Tilt Warp", sans-serif;
+$text-font: Archivo, sans-serif;
+
+//Colors
+
+//Block Colors
+$foreground-color: #fbb7b7;
+$background-color: #8072fa;
+
+//Text Colors
+$hover-color: #FF7428; 
+$link-color: #ff8c4d;
+
+//Spacing
+$spacer: 20px;
+$spacer-half: math.div($spacer, 2);
+$spacer-quarter: math.div($spacer, 4);
