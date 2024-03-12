@@ -28,16 +28,18 @@ left: 50%;
 transform: translate(-50%,0);
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-flow: row;
-  align-items: center;
-  .item{
-    width: 1fr;
-    padding: 2%;
-    img{
-      width: 100%;
-    }
+.grid{
+  width: 100%;
+}
+
+.grid-sizer{
+  width: 50%;
+}
+
+.grid-item{
+  width: 48.5%;
+  margin-bottom: 1%;
+  img{
+    width: 100%;
   }
 }

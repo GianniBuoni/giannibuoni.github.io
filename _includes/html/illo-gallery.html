@@ -1,11 +1,10 @@
-<span class="grid">
-
+<div class="grid">
+    <div class="grid-sizer"></div>
 {% for image in site.static_files reversed %}
     {% if image.path contains 'images/illustrations/thumbs' %}
-    <a class="item" src="assets/images/illustrations/{{image.name}}">
-        <img src="{{image.path}}"/>
-    </a>
+    <div class="grid-item">
+        <img src="{{image.path}}">
+    </div>    
     {% endif %}
 {% endfor %}
-
-</span>
+</div>
