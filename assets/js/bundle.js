@@ -8,8 +8,6 @@
 //Masonry
 {% include {{dependancy}}masonry.pkgd.min.js %}
 
-//ImageLoad
-
 //InfiniteScroll
 {% include {{dependancy}}infinite-scroll.pkgd.min.js %}
 
