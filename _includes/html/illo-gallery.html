@@ -3,7 +3,7 @@
 {% for image in site.static_files reversed %}
     {% if image.path contains 'images/illustrations/thumbs' %}
     <div class="grid-item">
-        <img src="{{image.path}}">
+        <a href="/assets/images/illustrations/{{image.name}}"><img src="{{image.path}}"></a>
     </div>    
     {% endif %}
 {% endfor %}
