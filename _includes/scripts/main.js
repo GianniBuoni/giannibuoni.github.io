@@ -1,10 +1,10 @@
-let $grid = $('.grid').masonry({
+$('.grid').masonry({
     columnWidth: '.grid-sizer',
     itemSelector: '.grid-item',
     percentPosition: true
   })
 
-let msnry = $grid.data('masonry');
+//let msnry = $grid.data('masonry');
 
 //$grid.imagesLoaded( function() {
 //   $grid.removeClass('are-images-unloaded');
