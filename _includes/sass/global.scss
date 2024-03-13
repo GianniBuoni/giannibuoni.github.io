@@ -3,15 +3,6 @@
   padding: 0px;
 }
 
-a {
-  text-decoration: none;
-  font-weight: 700;
-  color: $link-color;
-  &:hover{
-    color: $hover-color;
-  }
-}
-
 .current {
   color: #fff;
 }
@@ -42,4 +33,30 @@ transform: translate(-50%,0);
   img{
     width: 100%;
   }
+}
+
+//TEXT STYLES
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: $link-color;
+  &:hover{
+    color: $hover-color;
+  }
+}
+
+h1{
+  padding-bottom: $spacer;
+  padding-top: $spacer*2;
+}
+
+p{
+  line-height: 150%;
+  padding-bottom: $spacer;
+}
+
+ul{
+  line-height: 150%;
+  padding-bottom: $spacer;
+  padding-left: $spacer;
 }

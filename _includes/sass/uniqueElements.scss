@@ -6,6 +6,9 @@
 
 #logo{
     width: fit-content;
+    p{
+        padding: 0;
+    }
     img{
         height: $spacer*10;
     }
@@ -31,12 +34,10 @@ nav {
     padding: $spacer*15 $spacer $spacer*3 $spacer;
     width: 75%;
     position: relative;
-    h1{
-        padding-bottom: $spacer*2;
+    :first-child {
+        padding-top: 0;
     }
-    p{
-        line-height: 20pt;
-        margin-bottom: $spacer;
+    h1, p, ul {
         width: 75%;
     }
   }
@@ -50,6 +51,7 @@ nav {
         padding: $spacer-half;
         font-family: $text-font;
         font-size: small;
+        line-height: normal;
         color: #fff;
     }
   }
