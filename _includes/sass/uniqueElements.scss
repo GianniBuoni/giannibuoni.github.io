@@ -37,7 +37,10 @@ nav {
     :first-child {
         padding-top: 0;
     }
-    h1, p, ul {
+    h1{
+        width: 90%;
+    }
+    p, ul {
         width: 75%;
     }
   }
