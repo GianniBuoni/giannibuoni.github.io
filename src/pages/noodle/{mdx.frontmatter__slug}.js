@@ -12,17 +12,17 @@ const PostPage = ({data, children}) => {
     <Layout>
     <div className="post-grid">
 
+    <div className="post-headlines">
+        <h1 style={{paddingBottom: 5}}>{data.mdx.frontmatter.title}</h1>
+        <p>{data.mdx.frontmatter.date}</p>
+    </div>
+
     <div className="post-hero-image">
         <GatsbyImage
           image = {heroImage}
           alt = {data.mdx.frontmatter.heroimage_alt}
         />
-      </div>
-
-      <div className="post-headlines">
-        <h1 style={{paddingBottom: 5}}>{data.mdx.frontmatter.title}</h1>
-        <p>{data.mdx.frontmatter.date}</p>
-      </div>
+    </div>
 
       {children}
     </div>
@@ -35,7 +35,7 @@ export const query = graphql`
   query ($id: String) {
     mdx(id: {eq: $id}, internal: {}) {
       frontmatter {
-        date (formatString: "D MMM YYYY")
+        date (formatString: "DD MMM YYYY")
         heroimage {
           childImageSharp {
             gatsbyImageData

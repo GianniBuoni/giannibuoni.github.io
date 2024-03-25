@@ -1,3 +1,18 @@
+@include respond-to('medium'){
+    .post-grid {
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+        p, h1 {
+            width: 100%;
+        }
+        @include respond-to('large'){
+            width: 719.398px;
+        }
+    }
+}
+/* 
 .post-grid {
     display: flex;
     flex-direction: column;
@@ -31,3 +46,4 @@
         padding-bottom: $spacer*2;
     }
 }
+*/

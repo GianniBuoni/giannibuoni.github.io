@@ -25,6 +25,7 @@ nav {
 .logo{
     padding: 2% 2%;
     width: 20%;
+    max-width: 134px;
     @include respond-to ('small'){
         width: 15%;
     }
@@ -48,6 +49,9 @@ nav {
     }
     @include respond-to('medium'){
         padding-top: 15%;
+    }
+    @include respond-to('large'){
+        padding-top: 182.906px;
     }
     h1 {
         width: 90%;
